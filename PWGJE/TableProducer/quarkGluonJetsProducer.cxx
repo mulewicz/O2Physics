@@ -29,7 +29,6 @@
 #include "Common/DataModel/PIDResponseTOF.h"
 #include "Common/DataModel/PIDResponseTPC.h"
 #include "Common/DataModel/TrackSelectionTables.h"
-#include <TPDGCode.h>
 
 #include <CommonConstants/MathConstants.h>
 #include <Framework/ASoA.h>
@@ -38,6 +37,8 @@
 #include <Framework/Configurable.h>
 #include <Framework/InitContext.h>
 #include <Framework/runDataProcessing.h>
+
+#include <TPDGCode.h>
 
 #include <Rtypes.h>
 
